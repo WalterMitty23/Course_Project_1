@@ -40,8 +40,9 @@ class Employee {
 
     @Override
     public String toString() {
-        return id + " Имя сотрудника=" + fullName + '\'' +
+        return id + " " + fullName +
                 ", Отдел - " + department +
                 ", Зарплата - " + salary;
     }
+
 }
